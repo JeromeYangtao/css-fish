@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    background: #E9EBE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish {
+    width: 150px;
+    height: 121px;
+    border: 5px solid #555555;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eyeOne {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: #ddd;
+    border-radius: 50%;
+    right: 44px;
+    top: 34px;
+    border: 2px solid #555555;
+    z-index: 13;
+}
+
+.eyeTwo {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    background: #ddd;
+    border-radius: 50%;
+    right: 10px;
+    top: 34px;
+    border: 2px solid #555555;
+    z-index: 13;
+}
+
+.eyebrowtwo {
+    position: absolute;
+    height: 16px;
+    width: 6px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 0 0 #555555;
+    top: 25px;
+    right: 64px;
+    z-index: 50;
+    transform: rotate(-105deg);
+}
+
+.eyebrow {
+    position: absolute;
+    height: 16px;
+    width: 6px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 0 0 #555555;
+    top: 25px;
+    right: 21px;
+    z-index: 50;
+    transform: rotate(-85deg) scale(1, -1);
+}
